@@ -1,10 +1,8 @@
 Pod::Spec.new do |s|
   s.name             = '${POD_NAME}'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ${POD_NAME}.'
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.summary          = '${POD_NAME}.'
+  s.description      = '${POD_NAME} description'
 
   s.homepage         = 'https://github.com/${USER_NAME}/${POD_NAME}'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
