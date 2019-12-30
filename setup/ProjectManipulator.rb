@@ -19,7 +19,7 @@ module Pod
 
     def run
       @string_replacements = {
-        "PROJECT_OWNER" => "jingshonline",
+        "PROJECT_OWNER" => "goodswifter",
         "TODAYS_DATE" => @configurator.date,
         "TODAYS_YEAR" => @configurator.year,
         "PROJECT" => @configurator.pod_name,
