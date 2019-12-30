@@ -4,10 +4,10 @@ Pod::Spec.new do |s|
   s.summary          = '${POD_NAME}.'
   s.description      = '${POD_NAME} description'
 
-  s.homepage         = 'https://github.com/${USER_NAME}/${POD_NAME}'
+  s.homepage         = 'https://github.com/goodswifter/${POD_NAME}'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '${USER_NAME}' => '${USER_EMAIL}' }
-  s.source           = { :git => 'https://github.com/${USER_NAME}/${POD_NAME}.git', :tag => s.version.to_s }
+  s.author           = { 'goodswifter' => '1042480866@qq.com' }
+  s.source           = { :git => 'https://github.com/goodswifter/${POD_NAME}.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
 

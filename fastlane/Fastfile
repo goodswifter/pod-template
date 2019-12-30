@@ -65,7 +65,7 @@ platform :ios do
 		# pod spec lint
 		# pod_lib_lint(allow_warnings: true)
 		# pod repo push XXXX xxx.podspec
-		pod_push(path: "#{targetName}.podspec", repo: "ADFMSpecs", allow_warnings: true) 
+		pod_push(path: "#{targetName}.podspec", repo: "JSOLSpecs", allow_warnings: true) 
 	
 	end
 end
