@@ -64,8 +64,8 @@ platform :ios do
 		# 4. 上传描述文件
 		# pod spec lint
 		# pod_lib_lint(allow_warnings: true)
-		# pod repo push XXXX xxx.podspec
-		pod_push(path: "#{targetName}.podspec", repo: "JSOLSpecs", allow_warnings: true) 
+		# pod repo push xxx.podspec
+		pod_push(path: "#{targetName}.podspec", allow_warnings: true) 
 	
 	end
 end
