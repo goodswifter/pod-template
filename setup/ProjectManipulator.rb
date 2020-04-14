@@ -106,7 +106,7 @@ RUBY
         end
 
         # rename project related files
-        ["PROJECT-Info.plist", "PROJECT-Prefix.pch", "PROJECT.entitlements"].each do |file|
+        ["PROJECT-Info.plist", "Other/PROJECT-Prefix.pch", "PROJECT.entitlements"].each do |file|
           before = project_folder + "/PROJECT/" + file
           next unless File.exists? before
 
